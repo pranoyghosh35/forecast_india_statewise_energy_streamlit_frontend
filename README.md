@@ -1,4 +1,5 @@
-# forecast_india_statewise_energy_streamlit_frontend
+# Try now: https://forecast-india-statewise-energy.onrender.com
+
 This repository holds a Streamlit app for the backend service that forecasts India's energy requirement and generation for any state, any year.Also command to build Docker image and deploy web service on render.
 
 The backend is live at URI='https://forecast-india-statewise-energy-backend.onrender.com/predict'.
