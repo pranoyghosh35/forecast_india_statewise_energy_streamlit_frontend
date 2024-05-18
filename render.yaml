@@ -1,0 +1,11 @@
+services:
+- type: web
+  name: energy-streamlit-ui
+  env: python
+  buildCommand: "pip install -r requirements.txt"
+  startCommand: "streamlit run front_streamlit.py"
+  envVars:
+  - key: STREAMLIT_ENV
+    value: production
+  - key: PORT
+    value: "8501"
