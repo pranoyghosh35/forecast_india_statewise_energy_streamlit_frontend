@@ -5,18 +5,21 @@ This repository holds a Streamlit app for the backend service that forecasts Ind
 The backend is live at URI='https://forecast-india-statewise-energy-backend.onrender.com/predict'.
 Hit it with json containing 3 fields, e.g.:
 
+```json
 {
 "State/Union Territory": "West Bengal",
 "End_Year": 2024,
 "population(crores)": 9.97
 }
+```
 
 output:
-
+```json
 {
     "avail_crore_kWh": 6720.77,
     "req_crore_kWh": 7481.98
 }
+```
 
 # The backend repository is at: 
 https://github.com/pranoyghosh35/forecast_india_statewise_energy_backend.git
