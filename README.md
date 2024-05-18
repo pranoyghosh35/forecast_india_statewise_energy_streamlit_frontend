@@ -17,3 +17,8 @@ output:
     "avail_crore_kWh": 6720.77,
     "req_crore_kWh": 7481.98
 }
+
+# The backend repository is at: 
+https://github.com/pranoyghosh35/forecast_india_statewise_energy_backend.git
+
+# Feel free to distribute,include and reuse but give credits!!
